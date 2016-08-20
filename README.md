@@ -3,7 +3,7 @@
 Состоит из gruntjs, requirejs.
 
 ## Установка 
-Для установки надо иметь nodejs&npm. В корневой папке запустить nmp install.
+Для установки надо иметь nodejs&npm. В корневой папке запустить `nmp install`.
 
 ## Структура проекта
 * Папка [static](static) - папка с ресурсами js, css
@@ -18,3 +18,6 @@
 * [static_build](static_build) - папка куда складываются сжатые, скомпилированные ресурсы для `production`
 * [Gruntfile.js](Gruntfile.js) - задачи grunt, очистка build папки, компиляция проекта
 * [package.json](package.json) - зависимости npm 
+
+## Компиляция проекта
+Из корневой папки запустить `node_modules/.bin/grunt` 
