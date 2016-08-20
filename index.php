@@ -24,7 +24,7 @@ $staticPath = !empty($_GET['static_path']) ? $_GET['static_path'] : 'static';
         eventName: "requirejs-loaded",
         bodyElem: document.getElementsByClassName("alimero-application")[0],
         loaded: function() {
-            var event; // The custom event that will be created
+            var event;
 
             if (document.createEvent) {
                 event = document.createEvent("HTMLEvents");
